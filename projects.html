@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Contact Details</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #c1aad7;
+      color: #fff;
+    }
+
+    header {
+      background-color:#c1aad7;
+      padding: 1em 0;
+      text-align: center;
+      animation: fadeInUp 1s ease-out;
+    }
+
+   
+
+    section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 20px;
+      background-color: #a855f7;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      animation: fadeIn 1s ease-out;
+    }
+
+    h1, h2, h3 {
+      color: #fff;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+
+    }
+
+    p {
+      color: #ddd;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    a {
+      color: #4285f4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #c1aad7;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    li:hover {
+      animation: fadeOut 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Contact Details</p>
+  </header>
+
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Yash Gawhale</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Portfolio</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <h2>My Projects</h2>
+  </section>
+  <section>
+    
+    <ul>
+      <li>WEB DEV PROJECTS</li>
+    </ul>
+    </section>
+    <section>
+    <ul>
+      <li>PYTHON PROJECTS</li>
+    </ul>
+  </section>
+  <section>
+    <ul>
+      <li>MICROCONTROLLER BASED</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
